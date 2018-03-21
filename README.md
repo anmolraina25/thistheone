@@ -1,5 +1,5 @@
 # thistheone
--Unofficial tensorflow server api for python api:
+-Unofficial tensorflow server api for python3 api:
   pip install --upgrade tensorflow-serving-api-python3
 
 -scipy required
