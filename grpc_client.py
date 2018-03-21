@@ -46,7 +46,7 @@ def main(_):
     result = stub.Predict(request, 60.0)  # 60 secs timeout
     print(result)
     # Plot boxes on the input image
-    label_map = label_map_util.load_labelmap('training/od.pbtxt')
+    label_map = label_map_util.load_labelmap('od.pbtxt')
     categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=1, use_display_name=True)
     category_index = label_map_util.create_category_index(categories)
     boxes = result.outputs['detection_boxes'].float_val
