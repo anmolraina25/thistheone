@@ -61,6 +61,7 @@ def main(_):
     	use_normalized_coordinates=True,
     	line_thickness=8)
     scipy.misc.imsave('response.jpg', image_vis)
+    scipy.misc.imshow(image_vis)
 
 
 if __name__ == '__main__':
