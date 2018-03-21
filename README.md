@@ -10,7 +10,9 @@
 
 -run this script in models/research/object_detection
 
-send requests modafoka
+-send requests modafoka
+
+-response saved at models/research/object_detection
 
 
 
